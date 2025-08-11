@@ -1,0 +1,15 @@
+package constants;
+
+public enum KidFriendlyStatus {
+    APPROVED("approved"),
+    REJECTED("rejected"),
+    UNKNOWN("unknown");
+
+    private KidFriendlyStatus(String name){
+        this.name=name;
+    }
+    private String name;
+    private String getName(){
+        return name;
+    }
+}

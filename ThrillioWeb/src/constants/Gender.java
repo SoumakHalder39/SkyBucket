@@ -1,0 +1,19 @@
+package constants;
+
+public enum Gender  {
+    
+     MALE(0),
+     FEMALE(1),
+     TRANSGENDER(2);
+
+    private Gender(int value){
+        this.value = value;
+    }
+    private int value;
+
+    private int getValue() {
+        return value;
+    }
+
+
+}
